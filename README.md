@@ -17,9 +17,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To-Do-List  <a name="about-project"></a>
+# 📖 To Do List <a name="about-project"></a>
 
-To-Do-List is a project done at Microverse for portfolio showcase and learning purposes.
+To Do List is a project done at Microverse for portfolio showcase and learning purposes.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,6 +40,7 @@ To-Do-List is a project done at Microverse for portfolio showcase and learning p
 
 - **Dynamically generated HTML**
 - **Local Storage Management**
+- **User Interactive**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,8 +79,7 @@ I do recommend this method given it is easier, but if you want you can make this
 
 Hafed
 
-- GitHub: [@hafed](https://github.com/hafedefheij)
-
+- GitHub: [@DHafed](https://github.com/HafedEfheij)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,7 +98,7 @@ Hafed
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/DarkxDev/Awesome-Books/issues).
+Feel free to check the [issues page](https://github.com/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
