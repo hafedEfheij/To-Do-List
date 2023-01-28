@@ -1,16 +1,11 @@
-// This class creates a ToDoList object that allows users to add, remove, and view tasks.
 export default class ToDoList {
-constructor() {
-// Get the tasks from local storage or create an empty array if none exist.
-this.tasks = JSON.parse(localStorage.getItem('tasks')) || [];
-// Get the container element for the list and the list element itself.
-this.listContainer = document.getElementById('list-container');
-this.list = this.listContainer.querySelector('ul') || document.createElement('ul');
-// Append the list element to the container.
-this.listContainer.appendChild(this.list);
-// Populate the list with the existing tasks.
-this.populateList();
-}
+  constructor() {
+    this.tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+    this.listContainer = document.getElementById('list-container');
+    this.list = this.listContainer.querySelector('ul') || document.createElement('ul');
+    this.listContainer.appendChild(this.list);
+    this.populateList();
+  }
 
   addTask(description) {
     const task = {
