@@ -2,6 +2,7 @@ export default class RemoveCheckbox {
   constructor(toDoList) {
     this.toDoList = toDoList;
   }
+  
   removeCompletedTasks() {
     // Select all list items and create an array to store completed tasks
     const listItems = document.querySelectorAll('li');
