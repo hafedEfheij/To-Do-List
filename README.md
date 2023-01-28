@@ -17,9 +17,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome Books ES6 <a name="about-project"></a>
+# 📖 To Do List <a name="about-project"></a>
 
-Awesome Books ES6 is a project done at Microverse for portfolio showcase and learning purposes.
+To Do List is a project done at Microverse for portfolio showcase and learning purposes.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,6 +40,7 @@ Awesome Books ES6 is a project done at Microverse for portfolio showcase and lea
 
 - **Dynamically generated HTML**
 - **Local Storage Management**
+- **User Interactive**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,10 +77,10 @@ I do recommend this method given it is easier, but if you want you can make this
 
 ## 👤 Author <a name="author"></a>
 
-Hafed
+Bryan Hurtado
 
-- GitHub: [@hafed](https://github.com/hafedefheij)
-
+- GitHub: [@DarkxDev](https://github.com/DarkxDev)
+- Twitter: [@BryanHurtado_](https://twitter.com/BryanHurtado_)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
