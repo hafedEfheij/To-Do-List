@@ -1,9 +1,12 @@
 body {
   margin: 0;
   padding: 0;
+
+  /* Add a light gray background color */
   background-color: #f6f6f6;
 }
 
+/* Center the section element and give it a max-width, white background color, and box-shadow */
 section {
   margin: 30px auto;
   max-width: 500px;
@@ -12,15 +15,21 @@ section {
   box-shadow: 0 5px 5px 4px #ebebeb;
 }
 
+/* Remove margins for the title element and add padding and left alignment */
 #title {
   margin: 0;
   padding: 14px;
   text-align: left;
+
+  /* Decrease font size and make it bold */
   font-size: 15px;
-  border-bottom: 1px solid lightgray;
   font-weight: 600;
+
+  /* Add a light gray border at the bottom */
+  border-bottom: 1px solid lightgray;
 }
 
+/* Set the input field to take up the full width, with border-box sizing and 14px padding */
 #input-field {
   width: 100%;
   box-sizing: border-box;
@@ -29,15 +38,18 @@ section {
   border-bottom: 1px solid lightgray;
 }
 
+/* Make the placeholder text italic and decrease the font size */
 #input-field::placeholder {
   font-style: italic;
   font-size: 15px;
 }
 
+/* Add a light gray border at the bottom of the list container */
 #list-container {
   border-bottom: 1px solid lightgray;
 }
 
+/* Remove list styling for the ul element */
 ul {
   list-style: none;
   margin: 0;
@@ -54,8 +66,8 @@ ul li {
 
 ul li p {
   width: 100%;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .checkbox {
@@ -66,9 +78,9 @@ ul li p {
 #clear-button {
   text-align: center;
   margin: 0 auto;
-  padding: 20px 0;
-  background-color: #f6f6f6;
   color: #a3a3a3;
   font-size: 15px;
+  padding: 20px 0;
+  background-color: #f6f6f6;
   font-weight: 400;
 }
