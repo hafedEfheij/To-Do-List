@@ -1,11 +1,9 @@
-/* Set the margin and padding for the entire website to 0 and background color to light gray */
 body {
   margin: 0;
   padding: 0;
   background-color: #f6f6f6;
 }
 
-/* Create a section container that centers on the page, has a maximum width of 500px, and has a white background with a box shadow */
 section {
   margin: 30px auto;
   max-width: 500px;
@@ -14,7 +12,6 @@ section {
   box-shadow: 0 5px 5px 4px #ebebeb;
 }
 
-/* Style the title of the section with a left alignment, font size of 15px, and a border bottom */
 #title {
   margin: 0;
   padding: 14px;
@@ -24,7 +21,6 @@ section {
   font-weight: 600;
 }
 
-/* Style the input field with a width of 100%, padding of 14px, and a border bottom */
 #input-field {
   width: 100%;
   box-sizing: border-box;
@@ -33,25 +29,21 @@ section {
   border-bottom: 1px solid lightgray;
 }
 
-/* Style the placeholder text for the input field with italic font and a font size of 15px */
 #input-field::placeholder {
   font-style: italic;
   font-size: 15px;
 }
 
-/* Add a border bottom to the list container */
 #list-container {
   border-bottom: 1px solid lightgray;
 }
 
-/* Remove the default bullet points for the unordered list and set the margin and padding to 0 */
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* Style each list item with a margin and padding of 14px, a border bottom, and display as flex with space between items */
 ul li {
   margin: 0;
   padding: 14px;
@@ -75,8 +67,8 @@ ul li p {
   text-align: center;
   margin: 0 auto;
   padding: 20px 0;
+  background-color: #f6f6f6;
   color: #a3a3a3;
   font-size: 15px;
-  background-color: #f6f6f6;
   font-weight: 400;
 }
