@@ -1,11 +1,9 @@
-/* Define the overall container styles */
 body {
   margin: 0;
   padding: 0;
   background-color: #f6f6f6;
 }
 
-/* Define the styles for the main section container */
 section {
   margin: 30px auto;
   max-width: 500px;
@@ -14,8 +12,7 @@ section {
   box-shadow: 0 5px 5px 4px #ebebeb;
 }
 
-/* Define the styles for the title of the to-do list */
-#todo-list-title {
+#title {
   margin: 0;
   padding: 14px;
   text-align: left;
@@ -24,8 +21,7 @@ section {
   font-weight: 600;
 }
 
-/* Define the styles for the input field */
-#todo-list-input-field {
+#input-field {
   width: 100%;
   box-sizing: border-box;
   padding: 14px;
@@ -33,18 +29,15 @@ section {
   border-bottom: 1px solid lightgray;
 }
 
-/* Define the placeholder text style for the input field */
-#todo-list-input-field::placeholder {
+#input-field::placeholder {
   font-style: italic;
   font-size: 15px;
 }
 
-/* Define the styles for the list container */
-#todo-list-container {
+#list-container {
   border-bottom: 1px solid lightgray;
 }
 
-/* Define the styles for the list items */
 ul {
   list-style: none;
   margin: 0;
@@ -55,16 +48,22 @@ ul li {
   margin: 0;
   padding: 14px;
   border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
 }
 
-/* Define the styles for the checkbox next to each list item */
-.todo-list-checkbox {
+ul li p {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.checkbox {
   margin: 0 14px 0 0;
   padding: 0;
 }
 
-/* Define the styles for the "clear" button */
-#todo-list-clear-button {
+#clear-button {
   text-align: center;
   margin: 0 auto;
   padding: 20px 0;
