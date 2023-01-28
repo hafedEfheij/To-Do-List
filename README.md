@@ -79,7 +79,7 @@ I do recommend this method given it is easier, but if you want you can make this
 
 Hafed
 
-- GitHub: [@DarkxDev](https://github.com/HafedEfheij)
+- GitHub: [@DHafed](https://github.com/HafedEfheij)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
