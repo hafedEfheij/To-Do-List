@@ -2,7 +2,7 @@ export default class RemoveCheckbox {
   constructor(toDoList) {
     this.toDoList = toDoList;
   }
-  
+
   removeCompletedTasks() {
     // Select all list items and create an array to store completed tasks
     const listItems = document.querySelectorAll('li');
@@ -17,9 +17,9 @@ export default class RemoveCheckbox {
       }
     }
 
-    //Filter the task array, remove the completed tasks, update the task index and store in local storage
+    // Filter the task array, remove  update the task index and store in local storage
     this.toDoList.tasks = this.toDoList.tasks.filter(
-      (task, index) => !completedTasks.includes(index)
+      (task, index) => !completedTasks.includes(index),
     );
     for (let i = 0; i < this.toDoList.tasks.length; i += 1) {
       this.toDoList.tasks[i].index = i + 1;
